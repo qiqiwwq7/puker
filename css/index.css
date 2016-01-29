@@ -1,0 +1,289 @@
+body{
+	margin:0;
+	padding: 0;
+	background:#000;
+}
+#box{
+	width: 900px;
+	height: 660px;
+    margin:0 auto;
+    position: relative;
+}
+#text{
+	width: 110px;
+	height: 50px;
+	border:1px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	color:#fff;
+	font-size: 20px;
+	font-weight: 800;
+	position: absolute;
+	bottom:110px;
+	left:50%;
+	margin-left:-50px;
+	cursor: pointer;
+	
+}
+#start{
+	width: 110px;
+	height: 50px;
+	border:1px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	color:#fff;
+	font-size: 20px;
+	font-weight: 800;
+	position: absolute;
+	bottom:40px;
+	left:50%;
+	margin-left:-50px;
+	cursor: pointer;
+
+}
+#opd{
+	width: 112px;
+	height: 162px;
+	position: absolute;
+	left:200px;
+	bottom:20px;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#push{
+	width: 112px;
+	height: 162px;
+	position: absolute;
+	right:200px;
+	bottom:20px;
+	cursor: pointer;
+	overflow: hidden;
+
+
+}
+.div-box{
+	width: 110px;
+	height: 160px;
+	border:1px solid #000;
+	border-radius: 7px;
+	color:#D2A75B;
+	font-size: 20px;
+	font-family:'AR JULIAN';
+	cursor: pointer;
+	box-shadow: 0 0 10px #000;
+	background-size:cover;
+	text-align: left;
+	line-height: 30px;
+}
+.hezi{
+	width: 1366px;
+	height: 660px;
+	overflow: hidden;
+	margin:0 auto;
+	background: url(../images/3.jpg);
+	background-size:cover;
+	position: relative;
+}
+#box-on{	
+	width: 1366px;
+	height: 660px;
+	background: url(../images/2.jpg);
+	background-size:cover;
+	/*display: none;*/
+}
+#angyou{
+	width: 250px;
+	height: 65px;
+	border:1px solid #fff;
+	border-radius: 10px;
+	box-shadow:0 0 15px #fff;
+	position: absolute;
+	top:250px;
+	right:280px;
+	text-align: center;
+	color:#fff;
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 65px;
+	font-family: 'AR JULIAN';
+}
+#angyou2{
+    width: 200px;
+	height: 50px;
+	border:1px solid #fff;
+	border-radius: 10px;
+	box-shadow:0 0 10px #fff;
+	position: absolute;
+	top:340px;
+	right:305px;
+	text-align: center;
+	color:#fff;
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 50px;
+	font-family: '方正卡通简体';
+	cursor: pointer;
+}
+#shuoming{
+	width: 1366px;
+	height: 660px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top:0;
+	left:0;
+}
+.box-tow{
+	width: 1366px;
+	height: 660px;
+	position: relative;
+}
+#tishi{
+	width:1000px;
+	height: 200px;
+	background: #000;
+    box-shadow: 0 0 10px #fff;
+    position: absolute;
+    top:200px;
+    left:183px;
+}
+.tishi-a{
+	width:1000px;
+	height: 200px;
+	position: absolute;
+	background: #000;
+	top:0;
+	left:0;
+}
+.wanfa{
+	width: 150px;
+	height: 30px;
+	font-size: 24px;
+	color:#fff;
+	text-align: left;
+	position: absolute;
+	top:20px;
+	left:20px;
+	font-family: '微软雅黑';
+}
+.yeshu-1{
+	width: 150px;
+	height: 30px;
+	font-size: 16px;
+	color:#fff;
+	text-align: right;
+	position: absolute;
+	top:23px;
+	right:20px;
+	font-family: '微软雅黑';
+}
+.inner{
+    width: 960px;
+	height:100px;
+	font-size: 16px;
+	color:#fff;
+	text-align:left;
+	position: absolute;
+	top:63px;
+	right:20px;
+	font-family: '微软雅黑';
+	/*letter-spacing: 3px;*/
+}
+.guanbi{
+	width: 90px;
+	height: 40px;
+	border:1px solid #fff;
+	position: absolute;
+	bottom:20px;
+	left:720px;
+	color:#fff;
+    text-align:center;
+    line-height:40px;
+    font-family: '微软雅黑';
+    cursor: pointer;
+}
+.xia{
+	width: 90px;
+	height: 40px;
+	border:1px solid #fff;
+	position: absolute;
+	bottom:20px;
+	left:840px;
+	color:#000;
+    text-align:center;
+    line-height:40px;
+    font-family: '微软雅黑';
+    background: #fff;
+    font-weight: 800;
+    cursor: pointer;
+};
+#kai{
+	width: 200px;
+	height: 500px;
+	border:1px solid #fff;
+	position: absolute;
+	top:0;
+	left:-200;
+}
+.yingle{
+	width: 300px;
+	height: 200px;
+	position:absolute;;
+	top:250px;
+	left:520px;
+	border-radius:10px;
+	background: url(../images/yinle.jpg);
+	overflow: hidden;
+	display: none;
+	cursor: pointer;
+}
+#en{
+	width: 80px;
+	height: 35px;
+	border:1px solid #fff;
+	position: absolute;
+	bottom:30px;
+	left:160px;
+	text-align: center;
+	line-height: 35px;
+	color:#fff;
+	font-size: 16px;
+	font-weight: 800px;
+    font-family: '微软雅黑';
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff;
+
+}
+.yingle2{
+	width: 300px;
+	height: 200px;
+	position:absolute;;
+	top:250px;
+	left:520px;
+	border-radius:10px;
+	background: url(../images/shule.jpg);
+	overflow: hidden;
+	display: none;
+	z-index: 9999;
+	cursor: pointer;
+}
+#en2{
+	width: 80px;
+	height: 35px;
+	border:1px solid #fff;
+	position: absolute;
+	bottom:30px;
+	left:160px;
+	text-align: center;
+	line-height: 35px;
+	color:#fff;
+	font-size: 16px;
+	font-weight: 800px;
+    font-family: '微软雅黑';
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff;
+
+
+}
